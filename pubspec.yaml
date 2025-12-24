@@ -1,0 +1,27 @@
+name: placement_app_fixed
+description: Placement Preparation App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.30.0
+  shared_preferences: ^2.2.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
